@@ -1,0 +1,11 @@
+JSON Storage API:
+
+A basic CRUD API using .NET7 and EF Core and a SQL table
+1. Data stored is JSON Text, Id, Description and UpdateDate
+2. API will have these functions:
+	a. Get all JSONFiles (Get).
+	b. Get a single JSONFile by Id (Get).
+	c. Add a new JSONFile (Post), the Id and UpdateDate are not necessary to include, they are set automatically.
+	d. Update an existing JSONFile (Put), the Id is used to update the correct record.
+	e. Delete a JSONFile by Id (Delete).
+3. Time permitting, should add some validation to the various functions.
